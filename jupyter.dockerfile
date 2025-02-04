@@ -40,6 +40,8 @@ RUN pip install transformers
 RUN pip install accelerate
 RUN pip install sentencepiece
 RUN pip install nltk
+RUN pip install rouge-score
+RUN pip install bert-score
 
 RUN useradd -m maxim
 RUN echo 'maxim:maxim' | chpasswd
