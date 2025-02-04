@@ -32,7 +32,14 @@ RUN pip install matplotlib
 RUN pip install pandas
 RUN pip install tensorflow
 RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
+RUN pip install torchdata --index-url https://download.pytorch.org/whl/cpu
+RUN pip install torchvision --index-url https://download.pytorch.org/whl/cpu
+RUN pip install torchaudio --index-url https://download.pytorch.org/whl/cpu
 RUN pip install seaborn
+RUN pip install transformers
+RUN pip install accelerate
+RUN pip install sentencepiece
+RUN pip install nltk
 
 RUN useradd -m maxim
 RUN echo 'maxim:maxim' | chpasswd
