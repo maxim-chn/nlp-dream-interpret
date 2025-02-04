@@ -3,6 +3,8 @@
 .bash_history
 .jupyter/
 .local/
+.keras/
+nltk_data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
