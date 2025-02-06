@@ -42,6 +42,8 @@ RUN pip install sentencepiece
 RUN pip install nltk
 RUN pip install rouge-score
 RUN pip install bert-score
+RUN pip install tf-keras
+RUN pip install datasets
 
 RUN useradd -m maxim
 RUN echo 'maxim:maxim' | chpasswd
