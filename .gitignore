@@ -5,6 +5,10 @@
 .local/
 .keras/
 nltk_data/
+assets/flan_t5_small_fine_tune_logs/
+assets/flan_t5_small_fine_tuned/
+assets/gpt2_small_fine_tune_logs/
+assets/gpt2_small_fine_tuned/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
