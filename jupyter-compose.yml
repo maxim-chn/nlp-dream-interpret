@@ -1,0 +1,14 @@
+version: "3"
+services:
+  jupyter-service:
+    build:
+      context: ~/afeka/nlp/
+      dockerfile: jupyter.dockerfile
+    # command: jupyter notebook --no-browser --ip=0.0.0.0
+    command: tail -f /dev/null
+    container_name: jupyter-nlp-dream-interpret
+    image: jupyter-image
+    ports:
+      - "8888:8888"
+    volumes:
+      - ~/afeka/nlp-dream-interpret:/home/maxim
